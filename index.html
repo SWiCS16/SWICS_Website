@@ -2,9 +2,10 @@
 <!-- 
 
 	To do: 
-		Add some filter to pics 
+		Resize and Filter Images 
 		Compress Images 
-		Fix logo to match viewport 
+		Check spelling and grammar 
+		
 -->
 <html>
 	<head>
@@ -20,51 +21,70 @@
 				<section id="header">
 
 					<!-- Logo -->
-						<img src="/images/SWICS_LOGO.png" style="width:500px;height:150px;">
-			
+					<div id = "logo">
+						<img src="/images/SWICS_LOGO.png" style="width:350px;height:125px;">
+					</div>
 					<!-- Nav -->
 						<nav id="nav">
 							<ul>
 								<li class="current"><a href="index.html">HOME</a></li>
 								<li>
 									<a href="about.html">ABOUT</a>
-									<ul>
-										<li><a href="#">MISSION STATEMENT</a></li>
-										<li><a href="#">WHO WE ARE</a></li>
-										<li><a href="#">HISTORY</a></li>
-									</ul>
+						
 								</li>
 								<li>
                                     <a href="#">PROGRAMS</a>
                                     <ul> 
-										<li><a href="#">SPRING '19 PROGRAMS</a></li>
-										<li><a href="#">CALENDAR</a></li>
+										<li><a href="programs.html">OUR PROGRAMS</a></li>
+										<li><a href="calendar.html">CALENDAR</a></li>
 										
                                     </ul> 
                                 </li>
                                 <li>
-                                        <a href="#">SPONSORSHIP</a>
-                                        <ul>
-                                            <li><a href="#">BECOME A SPONSOR</a></li>
-                                        </ul>
-                                    </li>
-								<li><a href="no-sidebar.html">MEMBERS</a></li>
-
+                                        <a href="Sponsorship_Package.pdf">SPONSORSHIP</a>
+       
+								</li>
 							</ul>
 						</nav>
 					</section>
+			<!-- Slide Show -->
+			<section id= "change_banner"> 
+					<div class="container">
+                            <div class="slideshow-container">
+                                <div class="mySlides fade">
+                                    <img src="images/wecode_2017.JPG" style="width:100%; height:650px;">
+                                </div>
+                                <div class="mySlides fade">
+                                    <img src="images/coffee&code.JPG" style="width:100%; height:650px;">
+                                </div>
+                                <div class="mySlides fade">
+                                    <img src="images/women_history_night.jpg" style="width:100%; height:650px;">
+                                </div>
+                                <div class="mySlides fade">
+                                        <img src="images/women_history_night_2.jpg" style="width:100%; height:650px;">
+                                </div>
+                                <div class="mySlides fade">
+                                        <img src="images/gbm_1.JPG" style="width:100%; height:650px;">
+                                </div>
+                                <div class="mySlides fade">
+                                        <img src="images/expo.jpg" style="width:100%; height:650px;">
+                                </div>
+                                
+                            </div>
+                    </div>
+			
+			</section>
 			<!-- Main -->
 				<section id="main">
 					<div class="container">
 						<div class="row">
 							<div class="col-12">
-
-								<!-- Portfolio -->
 									<section>
 										<div class="row">
+											
 											<div class="col-4 col-6-medium col-12-small">
 												<section class="box">
-													<a href="#" class="image featured"><img src="images/newEboard.jpg" alt="" /></a>
+													<a href="about.html" class="image featured"><img src="images/newEboard.jpg" alt="" /></a>
 													<header>
 														<h3>WHO WE ARE</h3>
 													</header>
@@ -78,28 +98,28 @@
 											</div>
 											<div class="col-4 col-6-medium col-12-small">
 												<section class="box">
-													<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+													<a href="Sponsorship_Package.pdf" class="image featured"><img src="images/ghc.png" alt="" /></a>
 													<header>
 														<h3>BECOME A SPONSER</h3>
 													</header>
 													<p>Learn how to become a contributer to our cause.</p>
 													<footer>
 														<ul class="actions">
-															<li><a href="#" class="button alt">Learn more</a></li>
+															<li><a href="Sponsorship_Package.pdf" class="button alt">Learn more</a></li>
 														</ul>
 													</footer>
 												</section>
 											</div>
 											<div class="col-4 col-6-medium col-12-small">
 												<section class="box">
-													<a href="#" class="image featured"><img src="images/coffee&code.JPG" alt="" /></a>
+													<a href="programs.html" class="image featured"><img src="images/old_pic.jpg" alt="" /></a>
 													<header>
 														<h3>OUR PROGRAMS</h3>
 													</header>
 													<p>See our current and past events and learn about our initiatives.</p>
 													<footer>
 														<ul class="actions">
-															<li><a href="#" class="button alt">Learn More</a></li>
+															<li><a href="programs.html" class="button alt">Learn More</a></li>
 														</ul>
 													</footer>
 												</section>
@@ -108,74 +128,40 @@
 									</section>
 
 				<!-- Footer -->
-				<section id="footer">
-					<div class="container">
+				<section>
+				<div class="container">
 						<div class="row">
-							<div class="col-8 col-12-medium">
-								<section>
-									<header>
-										<h2>Upcoming Events </h2>
-									</header>
-									<ul class="dates">
-										<li>
-											<span class="date">Jan <strong>27</strong></span>
-											<h3>First GBM </h3>
-											<p>Ipsum dolor sit amet veroeros consequat blandit ipsum phasellus lorem consequat etiam.</p>
-										</li>
-										<li>
-											<span class="date">Jan <strong>23</strong></span>
-											<h3>First GBM </h3>
-											<p>Blandit phasellus lorem ipsum dolor tempor sapien tortor hendrerit adipiscing feugiat lorem.</p>
-										</li>
-										<li>
-											<span class="date">Jan <strong>15</strong></span>
-											<h3>First GBM </h3>
-											<p>Dolore consequat sed phasellus lorem sed etiam nullam dolor etiam sed amet sit consequat.</p>
-										</li>
-										<li>
-											<span class="date">Jan <strong>12</strong></span>
-											<h3>First GBM </h3>
-											<p>Feugiat lorem dolor sed nullam tempus lorem ipsum dolor sit amet nullam consequat.</p>
-										</li>
-										<li>
-											<span class="date">Jan <strong>10</strong></span>
-											<h3>First GBM </h3>
-											<p>Feugiat sed tempus blandit tempus adipiscing nisl lorem ipsum dolor sit amet dolore.</p>
-										</li>
-									</ul>
-								</section>
-							</div>
-							
+								<div class="col-12">
+										<!-- Copyright -->
+											<div id="copyright">
+												<ul class="links">
+													<li>&copy; 2016 Stevens Women in Computer Science </li>
+												</ul>
+											</div>
+									</div>
 
 							</div>
 					
 						</div>
 					</div>
+			
 				</section>
-				<section>
-
-					
-						<div class="col-12">
-
-								<!-- Copyright -->
-									<div id="copyright">
-										<ul class="links">
-											<li>&copy; 2016 Stevens Women in Computer Science </li>
-										</ul>
-									</div>
-
-							</div>
-				</section>
+			</div>
 
 		</div>
 
 		<!-- Scripts -->
+	
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
+
+			<script type="text/javascript" src="assets/js/slides.js"></script>
 			<script src="assets/js/main.js"></script>
+		
+
 
 	</body>
 </html>

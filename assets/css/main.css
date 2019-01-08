@@ -2153,10 +2153,55 @@ input, select, textarea {
 				border-bottom-color: rgba(34, 30, 31, 0.98);
 			}
 
+/*Image Banner on index.html */
+		#change_banner { 
+			background: #ffffff;
+			background-position: center center; 
+			background-size: auto 100%;
+			position: relative; 
+			padding: 10px; 
+		}
+		/* Slide show */
+		* {box-sizing:border-box}
+
+		/* Slideshow container */
+		.slideshow-container {
+			display: flex;
+			flex-wrap: wrap;
+			box-sizing: border-box;
+			align-items: stretch;
+			max-width: 1000px;
+			position: relative;
+			margin: auto;
+		}
+
+		/* Hide the images by default */
+		.mySlides {
+		display: none;
+		}
+
+		/* Fading animation */
+		.fade {
+		-webkit-animation-name: fade;
+		-webkit-animation-duration: 1.5s;
+		animation-name: fade;
+		animation-duration: 1.5s;
+		}
+
+		@-webkit-keyframes fade {
+		from {opacity: .4} 
+		to {opacity: 1}
+		}
+
+		@keyframes fade {
+		from {opacity: .4} 
+		to {opacity: 1}
+		}
+
 /* Banner */
 
 	#banner {
-		background: #CCE8F4 url("../../images/newEboard.jpg");
+		background: #f7f7f7;
 		background-position: center center;
 		background-size: auto 100%;
 		background-repeat: no-repeat;
@@ -2166,28 +2211,21 @@ input, select, textarea {
 		margin: 4em 0 0 0;
 	}
 
-	/*	#banner header {
-			background-color: rgba(34, 30, 31, 0.98);
-			display: inline-block;
-			padding: 2.5em 5em;
-			border-radius: 5px;
+
+/*Calendar */
+	#calendar{ 
+		background-position: center center;
+		background-size: auto 100%;
+		background-repeat: no-repeat;
+		text-align: center;
+		position: center;
 		}
-*/
-			#banner header h2 {
-				color: #fff;
-				font-weight: 700;
-				font-size: 2.5em;
-				margin: 0 0 0.65em 0;
-			}
-/*
-			#banner header p {
-				color: #d52349;
-				padding: 0;
-				font-style: normal;
-				margin: 0;
-				font-size: 1.5em;
-			}
-*/
+	
+	/* Logo */
+
+	.logo { 
+		object-fit: contain;
+	}
 /* Intro */
 
 	#intro {
