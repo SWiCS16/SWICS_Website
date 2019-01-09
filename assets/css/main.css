@@ -2155,7 +2155,7 @@ input, select, textarea {
 
 /*Image Banner on index.html */
 		#change_banner { 
-			background: #ffffff;
+			background: #FFF;
 			background-position: center center; 
 			background-size: auto 100%;
 			position: relative; 
@@ -2170,7 +2170,7 @@ input, select, textarea {
 			flex-wrap: wrap;
 			box-sizing: border-box;
 			align-items: stretch;
-			max-width: 1000px;
+			max-width: auto;
 			position: relative;
 			margin: auto;
 		}
@@ -2183,9 +2183,10 @@ input, select, textarea {
 		/* Fading animation */
 		.fade {
 		-webkit-animation-name: fade;
-		-webkit-animation-duration: 1.5s;
+		-webkit-animation-duration: 2.0s;
 		animation-name: fade;
-		animation-duration: 1.5s;
+		animation-duration: 2.0s;
+		
 		}
 
 		@-webkit-keyframes fade {
@@ -2201,7 +2202,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background: #f7f7f7;
+		background: #f7f7f7 url("images/bg02.png");
 		background-position: center center;
 		background-size: auto 100%;
 		background-repeat: no-repeat;
