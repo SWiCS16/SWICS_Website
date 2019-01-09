@@ -2,6 +2,8 @@
 
 ## Bugs 
 * First image fades twice 
+* Change CNAME 
+* DNS 
 
 ## To Do 
 * Add social links 
